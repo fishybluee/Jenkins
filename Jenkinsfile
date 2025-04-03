@@ -14,13 +14,13 @@ pipeline{
                 echo "Reached level1"
             }
         }   
-        stage(level2)
+        stage('level2')
         {
             steps{
                 echo "Reached level2"
             }
         }    
-        stage(level 3)
+        stage('level3')
         {
             steps{
                 echo "Reached level3"
